@@ -1,3 +1,8 @@
 .DS_Store
 test
 .ve_blog
+*.log
+*.pyc
+/cache
+/_
+/_drafts
