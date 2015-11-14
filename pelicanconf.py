@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Viktor Chabanenko'
 SITENAME = u'ch'
-SITEURL = ''
+SITEURL = 'https://chabanenko.github.io'
 
 PATH = 'content'
 
@@ -22,14 +22,17 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('https://twitter.com/chabanenko', 'Твиттер'),)
+SOCIAL = (('Лицокнига', 'https://facebook.com/chabanenko'),
+          ('Твиттер', 'https://twitter.com/chabanenko'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = 'pelican-elegant-1.3'
+THEME_STATIC_DIR = 'theme'
+CSS_FILE = 'style.css'
